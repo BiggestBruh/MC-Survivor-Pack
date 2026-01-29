@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "minecraft:buff_merge"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:buff_merge"
+      }
+    ]
+  }
+}

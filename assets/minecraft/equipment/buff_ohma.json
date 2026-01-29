@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "minecraft:buff_ohma"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:buff_ohma"
+      }
+    ]
+  }
+}

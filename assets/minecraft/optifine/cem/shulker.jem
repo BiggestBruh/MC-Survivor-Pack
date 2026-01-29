@@ -1,0 +1,59 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, 4, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 0, 0, 0], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 0, 0, 0], "textureOffset": [0, 28]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-8, 0, 8, 0, 0, 0], "textureOffset": [0, 52]}
+			]
+		},
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-8, 4, -8, 16, 12, 16], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 16, 8, 16], "textureOffset": [0, 28]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		}
+	]
+}

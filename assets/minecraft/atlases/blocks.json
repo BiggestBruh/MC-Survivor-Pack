@@ -1,0 +1,204 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "bernice",
+      "prefix": "bernice/"
+    },
+    {
+      "type": "directory",
+      "source": "block/glass",
+      "prefix": "block/glass/"
+    },
+    {
+      "type": "directory",
+      "source": "block/old",
+      "prefix": "block/old/"
+    },
+    {
+      "type": "directory",
+      "source": "emissary",
+      "prefix": "emissary/"
+    },
+    {
+      "type": "directory",
+      "source": "entity/35",
+      "prefix": "entity/35/"
+    },
+    {
+      "type": "directory",
+      "source": "holotext",
+      "prefix": "holotext/"
+    },
+    {
+      "type": "directory",
+      "source": "item/bowblade",
+      "prefix": "item/bowblade/"
+    },
+    {
+      "type": "directory",
+      "source": "item/compass",
+      "prefix": "item/compass/"
+    },
+    {
+      "type": "directory",
+      "source": "item/compass/lotus",
+      "prefix": "item/compass/lotus/"
+    },
+    {
+      "type": "directory",
+      "source": "item/compass/nihilist",
+      "prefix": "item/compass/nihilist/"
+    },
+    {
+      "type": "directory",
+      "source": "item/compass/snake",
+      "prefix": "item/compass/snake/"
+    },
+    {
+      "type": "directory",
+      "source": "item/compass/term",
+      "prefix": "item/compass/term/"
+    },
+    {
+      "type": "directory",
+      "source": "item/compass/yav",
+      "prefix": "item/compass/yav/"
+    },
+    {
+      "type": "directory",
+      "source": "item/compass/ytaj",
+      "prefix": "item/compass/ytaj/"
+    },
+    {
+      "type": "directory",
+      "source": "item/flying_bitch",
+      "prefix": "item/flying_bitch/"
+    },
+    {
+      "type": "directory",
+      "source": "item/khive_wand",
+      "prefix": "item/khive_wand/"
+    },
+    {
+      "type": "directory",
+      "source": "item/krune1",
+      "prefix": "item/krune1/"
+    },
+    {
+      "type": "directory",
+      "source": "item/krune2",
+      "prefix": "item/krune2/"
+    },
+    {
+      "type": "directory",
+      "source": "item/mythic",
+      "prefix": "item/mythic/"
+    },
+    {
+      "type": "directory",
+      "source": "item/ossein_bow",
+      "prefix": "item/ossein_bow/"
+    },
+    {
+      "type": "directory",
+      "source": "item/part",
+      "prefix": "item/part/"
+    },
+    {
+      "type": "directory",
+      "source": "item/part/explosion",
+      "prefix": "item/part/explosion/"
+    },
+    {
+      "type": "directory",
+      "source": "item/part/ff",
+      "prefix": "item/part/ff/"
+    },
+    {
+      "type": "directory",
+      "source": "item/part/hovad",
+      "prefix": "item/part/hovad/"
+    },
+    {
+      "type": "directory",
+      "source": "item/part/spectra",
+      "prefix": "item/part/spectra/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic",
+      "prefix": "item/relic/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/anguish",
+      "prefix": "item/relic/anguish/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/ardorbrand",
+      "prefix": "item/relic/ardorbrand/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/dahr",
+      "prefix": "item/relic/dahr/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/effloresce",
+      "prefix": "item/relic/effloresce/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/khive",
+      "prefix": "item/relic/khive/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/loe",
+      "prefix": "item/relic/loe/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/rihelma",
+      "prefix": "item/relic/rihelma/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/taihgel",
+      "prefix": "item/relic/taihgel/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/vayniklah",
+      "prefix": "item/relic/vayniklah/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/virtuo",
+      "prefix": "item/relic/virtuo/"
+    },
+    {
+      "type": "directory",
+      "source": "item/relic/voynahla",
+      "prefix": "item/relic/voynahla/"
+    },
+    {
+      "type": "directory",
+      "source": "item/whispersong",
+      "prefix": "item/whispersong/"
+    },
+    {
+      "type": "directory",
+      "source": "mael",
+      "prefix": "mael/"
+    },
+    {
+      "type": "directory",
+      "source": "models/shields",
+      "prefix": "models/shields/"
+    }
+  ]
+}

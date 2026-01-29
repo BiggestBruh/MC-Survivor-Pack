@@ -1,0 +1,156 @@
+{
+	"credit": "Made by MoutonDemocrate",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "left_ear",
+			"id": "left_ear",
+			"invertAxis": "xy",
+			"translate": [8.25, -30, 0],
+			"boxes": [
+				{"coordinates": [-3, 25, -2, 1, 5, 4], "textureOffset": [54, 35]}
+			]
+		},
+		{
+			"part": "right_ear",
+			"id": "right_ear",
+			"invertAxis": "xy",
+			"translate": [-8.5, -30, 0],
+			"submodels": [
+				{
+					"id": "right_ear_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [-3, 0, 0],
+					"boxes": [
+						{"coordinates": [5, 25, -2, 1, 5, 4], "textureOffset": [54, 35]}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -12, 0],
+			"boxes": [
+				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [0, 16]},
+				{"coordinates": [0, 0, -2, 4, 12, 4], "textureOffset": [48, 32], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [40, 16]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -12, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -2, 4, 12, 4], "textureOffset": [16, 48]},
+				{"coordinates": [-4, 0, -2, 4, 12, 4], "textureOffset": [48, 32], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [32, 48]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16]},
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [40, 32], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-2, 24, -3, 4, 4, 1], "textureOffset": [31, 1]},
+				{"coordinates": [-3, 24, -3, 1, 2, 1], "textureOffset": [60, 0]},
+				{"coordinates": [2, 24, -3, 1, 2, 1], "textureOffset": [29, 0]}
+			],
+			"submodels": [
+				{
+					"id": "horns",
+					"invertAxis": "xy",
+					"translate": [0, 31, -2],
+					"rotate": [90, 0, 0],
+					"boxes": [
+						{"coordinates": [4, -1, 0, 3, 2, 2], "textureOffset": [36, 12]},
+						{"coordinates": [-7, -1, 0, 3, 2, 2], "textureOffset": [46, 12]},
+						{"coordinates": [-7, -1, -2, 1, 2, 2], "textureOffset": [56, 12]},
+						{"coordinates": [6, -1, -2, 1, 2, 2], "textureOffset": [56, 12]}
+					]
+				},
+				{
+					"id": "virmari_horns",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"boxes": [
+						{"coordinates": [3, 5, -2, 5, 1, 1], "textureOffset": [44, 2]},
+						{"coordinates": [5.5, 6, -2, 1, 4, 1], "textureOffset": [44, 0], "sizeAdd": -0.001}
+					]
+				},
+				{
+					"id": "virmari_horns2",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"submodels": [
+						{
+							"id": "head_sub_3",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-8, 5, -2, 5, 1, 1], "textureOffset": [44, 4], "sizeAdd": 0.001},
+								{"coordinates": [-6.5, 6, -2, 1, 4, 1], "textureOffset": [47, 2], "sizeAdd": -0.001}
+							]
+						}
+					]
+				},
+				{
+					"id": "virmari_horns_tip1",
+					"invertAxis": "xy",
+					"translate": [8.5, 31, -1.5],
+					"rotate": [0, 0, -30],
+					"boxes": [
+						{"coordinates": [-0.43301, -1.98205, -0.5, 1, 4, 1], "textureOffset": [45, 3], "sizeAdd": 0.001}
+					]
+				},
+				{
+					"id": "virmari_horns_tip2",
+					"invertAxis": "xy",
+					"translate": [-10.43301, 31.01795, -1.5],
+					"rotate": [0, 0, 30],
+					"boxes": [
+						{"coordinates": [1.09908, -2.9631, -0.499, 1, 4, 1], "textureOffset": [49, 2], "sizeAdd": 0.001}
+					]
+				}
+			]
+		}
+	]
+}

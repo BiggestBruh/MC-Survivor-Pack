@@ -1,0 +1,183 @@
+{
+	"credit": "Made by MoutonDemocrate",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -4, 0],
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 16, 16, 16], "textureOffset": [0, 0]},
+				{"coordinates": [-8, 0, -8, 16, 16, 16], "textureOffset": [64, 0]}
+			],
+			"submodels": [
+				{
+					"id": "leftwing",
+					"invertAxis": "xy",
+					"translate": [-2, 16, 0],
+					"boxes": [
+						{"coordinates": [-22, 0, -8, 22, 0, 16], "textureOffset": [-16, 32]}
+					]
+				},
+				{
+					"id": "rightwing",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [2, 16, 0],
+					"boxes": [
+						{"coordinates": [0, 0, -8, 22, 0, 16], "textureOffset": [-16, 32]}
+					]
+				},
+				{
+					"id": "tentacles",
+					"invertAxis": "xy",
+					"translate": [0, 20, 0],
+					"submodels": [
+						{
+							"id": "t11",
+							"invertAxis": "xy",
+							"translate": [4, -20, -6],
+							"boxes": [
+								{"coordinates": [-1, -8, 0, 2, 8, 2], "textureOffset": [0, 0]}
+							]
+						},
+						{
+							"id": "t12",
+							"invertAxis": "xy",
+							"translate": [4, -20, -2],
+							"boxes": [
+								{"coordinates": [-1, -8, 0, 2, 8, 2], "textureOffset": [0, 0]}
+							]
+						},
+						{
+							"id": "t13",
+							"invertAxis": "xy",
+							"translate": [4, -20, 2],
+							"boxes": [
+								{"coordinates": [-1, -8, 0, 2, 8, 2], "textureOffset": [0, 0]}
+							]
+						},
+						{
+							"id": "t31",
+							"invertAxis": "xy",
+							"translate": [-4, -20, -6],
+							"boxes": [
+								{"coordinates": [-1, -8, 0, 2, 8, 2], "textureOffset": [0, 0]}
+							]
+						},
+						{
+							"id": "t32",
+							"invertAxis": "xy",
+							"translate": [-4, -20, -2],
+							"boxes": [
+								{"coordinates": [-1, -8, 0, 2, 8, 2], "textureOffset": [0, 0]}
+							]
+						},
+						{
+							"id": "t33",
+							"invertAxis": "xy",
+							"translate": [-4, -20, 2],
+							"boxes": [
+								{"coordinates": [-1, -8, 0, 2, 8, 2], "textureOffset": [0, 0]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"leftwing.rz": "(0+sin(time*8)-1)/4",
+					"rightwing.rz": "(0-sin(time*8)+1)/4",
+					"t11.rx": "(0-sin(time/4)+1)/5 + 0.1",
+					"t12.rx": "(0-sin(time/4 + 1)+1)/5 + 0.1",
+					"t13.rx": "(0-sin(time/4 + 2)+1)/5 + 0.1",
+					"t31.rx": "(0-sin(time/4 + pi)+1)/5 + 0.1",
+					"t32.rx": "(0-sin(time/4 + pi + 1)+1)/5 + 0.1",
+					"t33.rx": "(0-sin(time/4 + pi + 2)+1)/5 + 0.1"
+				}
+			]
+		},
+		{
+			"part": "tentacle1",
+			"id": "tentacle1",
+			"invertAxis": "xy",
+			"translate": [-3.75, -1, 5],
+			"boxes": [
+				{"coordinates": [2.7, -7, -6, 2, 8, 2], "textureOffset": [64, 0]}
+			]
+		},
+		{
+			"part": "tentacle2",
+			"id": "tentacle2",
+			"invertAxis": "xy",
+			"translate": [1.3, -1, 5],
+			"boxes": [
+				{"coordinates": [-7.3, -8, -6, 2, 9, 2], "textureOffset": [64, 0]}
+			]
+		},
+		{
+			"part": "tentacle3",
+			"id": "tentacle3",
+			"invertAxis": "xy",
+			"translate": [1.25, -1, 5],
+			"boxes": [
+				{"coordinates": [-2.3, -12, -6, 2, 13, 2], "textureOffset": [64, 0]}
+			]
+		},
+		{
+			"part": "tentacle4",
+			"id": "tentacle4",
+			"invertAxis": "xy",
+			"translate": [-6.3, -1, 0],
+			"boxes": [
+				{"coordinates": [5.3, -10, -1, 2, 11, 2], "textureOffset": [64, 0]}
+			]
+		},
+		{
+			"part": "tentacle5",
+			"id": "tentacle5",
+			"invertAxis": "xy",
+			"translate": [-1.3, -1, 0],
+			"boxes": [
+				{"coordinates": [0.3, -10, -1, 2, 11, 2], "textureOffset": [64, 0]}
+			]
+		},
+		{
+			"part": "tentacle6",
+			"id": "tentacle6",
+			"invertAxis": "xy",
+			"translate": [3.7, -1, 0],
+			"boxes": [
+				{"coordinates": [-4.7, -9, -1, 2, 10, 2], "textureOffset": [64, 0]}
+			]
+		},
+		{
+			"part": "tentacle7",
+			"id": "tentacle7",
+			"invertAxis": "xy",
+			"translate": [-3.7, -1, -5],
+			"boxes": [
+				{"coordinates": [2.7, -11, 4, 2, 12, 2], "textureOffset": [64, 0]}
+			]
+		},
+		{
+			"part": "tentacle8",
+			"id": "tentacle8",
+			"invertAxis": "xy",
+			"translate": [1.3, -1, -5],
+			"boxes": [
+				{"coordinates": [-7.3, -11, 4, 2, 12, 2], "textureOffset": [64, 0]}
+			]
+		},
+		{
+			"part": "tentacle9",
+			"id": "tentacle9",
+			"invertAxis": "xy",
+			"translate": [6.3, -1, -5],
+			"boxes": [
+				{"coordinates": [-2.3, -8, 4, 2, 9, 2], "textureOffset": [64, 0]}
+			]
+		}
+	]
+}
