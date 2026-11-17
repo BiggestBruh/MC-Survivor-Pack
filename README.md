@@ -1,3 +1,3 @@
-# Survivor-S3-Pack
+# MC-Survivor-Pack
 
-All the necessary resources for the third LQS Minecraft Survivor event.
+All the necessary resources for the LQS Minecraft Survivor events.

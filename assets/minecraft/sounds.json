@@ -90,38 +90,72 @@
       {
         "name": "custom/tc1",
         "stream": true,
-        "volume": 0.5
+        "volume": 0.4
       },
       {
         "name": "custom/tc2",
         "stream": true,
-        "volume": 0.5
+        "volume": 0.4
       },
       {
         "name": "custom/tc3",
-        "stream": true
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "custom/tc4",
         "stream": true,
-        "volume": 0.5
+        "volume": 0.4
       },
       {
         "name": "custom/tc5",
         "stream": true,
-        "volume": 0.5
+        "volume": 0.4
       },
       {
         "name": "custom/tc6",
-        "stream": true
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "custom/tc7",
-        "stream": true
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "custom/tc8",
-        "stream": true
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "custom/tc9",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "custom/tc10",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "custom/tc11",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "custom/tc12",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "custom/tc13",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "custom/tc14",
+        "stream": true,
+        "volume": 0.4
       }
     ]
   },

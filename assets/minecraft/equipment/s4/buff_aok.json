@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "minecraft:s4/buff_aok"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:s4/buff_aok"
+      }
+    ]
+  }
+}
